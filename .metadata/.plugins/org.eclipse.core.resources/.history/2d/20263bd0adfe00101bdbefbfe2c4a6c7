@@ -1,0 +1,16 @@
+package com.pavan.demo.service;
+
+import java.util.List;
+
+import com.pavan.demo.entity.Users;
+
+public interface UserService {
+	
+	
+	public Users saveUser(Users user);
+	public Users updateUser(Users user);
+	public Users getUserById(int id);
+	public void deleteUser(Users user);
+	public List <Users> findAllUsers();
+
+}

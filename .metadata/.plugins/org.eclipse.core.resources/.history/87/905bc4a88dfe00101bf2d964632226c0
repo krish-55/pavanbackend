@@ -1,0 +1,37 @@
+package com.pavan.demo.service;
+
+import com.pavan.demo.entity.Users;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public Users saveUser(Users user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Users updateUser(Users user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Users getUserById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteUser(Users user) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public <List> Users FindAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

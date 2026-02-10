@@ -1,0 +1,38 @@
+package com.pavan.service;
+
+import com.pavan.entity.UserDetails;
+
+public class UserDetailsServiceImpl implements UserDetailsService {
+
+	
+	@Override
+	public UserDetails saveUserDetails(UserDetails userdetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDetails updateUserDetails(UserDetails userdetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDetails deleteUserDetails(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDetails getUserDetailsById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <List> UserDetails findAllUserDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

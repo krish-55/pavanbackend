@@ -1,0 +1,68 @@
+package com.pavan.demo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.pavan.demo.entity.Users;
+import com.pavan.demo.repository.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	//getters and setters
+	
+	public UserRepository getUserRepository() {
+		return userRepository;
+	}
+	
+	public void setUserRepository(UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
+	
+	
+	
+
+     
+	public Users saveUser(Users user) {
+		
+		userRepository.save(user);
+	
+		return user;
+	}
+
+	
+	public Users updateUser(Users user) {
+		
+		userRepository.save(user);
+	
+		return user;
+	}
+
+	
+	public Users getUserById(int id) {
+		
+		userRepository.findById(id);
+	
+		return null;
+	}
+
+	
+	public void deleteUser(Users user) {
+		
+		userRepository.delete(user);
+		
+
+	}
+
+	
+	public <List> Users FindAllUsers() {
+		
+		userRepository.findAll();
+	
+		return null;
+	}
+
+}

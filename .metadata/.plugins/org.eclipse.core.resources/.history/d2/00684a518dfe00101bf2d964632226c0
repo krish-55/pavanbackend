@@ -1,0 +1,5 @@
+package com.pavan.demo.service;
+
+public interface UserService {
+
+}
